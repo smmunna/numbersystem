@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octal to Hexa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+    <!--Inculde Header-->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+ </script>
+ <script> 
+ $(function(){
+  $("#rim").load("../header.html"); 
+ });
+
+ </script>
+
+ <style>
+     .homepage{
+         width: fit-content;
+         margin: 0 auto;
+     }
+
+     
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .homepage{
+    
+     padding: 0 16% 0 16%;
+ }
+
+}
+   
+ </style>
+  
+</head>
+<body>
+    <div id="rim"></div>
+    <br><br><br><br>
+    <div class="homepage">
+         <h2>Octal to Hexa</h2>
+        <hr>
+
+        
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Octal  Number:</span>
+            </div>
+            <input id="num1" class="form-control" placeholder="20" aria-label="Username" aria-describedby="basic-addon1">
+
+          </div>
+          <button type="submit" onclick="octaltohexa()" class="btn btn-primary">Click to Find</button>
+
+          <br><br>
+          <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">Output:</div>
+            <div class="card-body">
+              <h5 class="card-title" id="result"></h5>
+                         </div>
+
+    </div>
+
+    <p> <span style="font-family: 'Akaya Telivigala', cursive; font-size: 17px;">sm_munna 2022</span>&copy; <span style="font-family: 'Akaya Telivigala', cursive; font-size: 20px;"> Enjoy this calculator</span> &#10084;</p>
+
+    </div>
+    <br><br>
+    
+    <script src="numbersystem.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
