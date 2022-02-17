@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1's Complement</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style1.css">
+
+
+    <!--Inculde Header-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#rim").load("../header.html");
+        });
+
+    </script>
+    <style>
+        .body1 {
+            width: fit-content;
+            margin: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <br><br><br><br>
+    <div id="rim"></div>
+    <H3 style="text-align: center; width: fit-content; margin: auto;">1's Complement</H3>
+    <hr> <br>
+
+    <div class="body1">
+
+        <div class="input-group mb-3">
+
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Number:</span>
+            </div>
+            <input id="num1" class="form-control" onfocus="this.value=''" placeholder="10101" aria-label="Username"
+                aria-describedby="basic-addon1">
+
+        </div>
+        <button type="submit" onclick="complement1()" class="btn btn-primary">Click to Find</button>
+
+        <br><br>
+        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">Output:</div>
+            <div class="card-body">
+                <h5 class="card-title" id="pes"></h5>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="footer">
+            <i>Sm Munna 2022&copy; || Enjoy this Calculator.&#128151;</i>
+        </div>
+
+    </div>
+
+
+    <script src="complement.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
