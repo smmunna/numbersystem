@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+ <!--Inculde Header-->
+ <script
+ src="https://code.jquery.com/jquery-3.3.1.js"
+ integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+ crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+$("#rimheader").load("header.html"); 
+});
+</script>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(odd){background-color: #95d670;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: rgb(250, 249, 249);
+}
+
+.newtable{
+   
+    text-align: justify;
+    padding:8%;
+    width: fit-content;
+    
+    margin: 0 auto;
+}
+.bdybg{
+    background-image: url('bg1.jpg'); 
+    height: 100%; 
+    background-size: cover;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .newtable{
+     padding: 22%;
+ }
+ .bdybg{
+     height: 100%;
+ }
+  
+}
+
+
+
+</style>
+    
+</style>
+
+
+
+</head>
+<body>
+  <div id="rimheader"></div>
+  <div class="body1">
+     <div class="bdybg">
+   
+        <div class="newtable">
+            <h1>Number System Conversion</h1>
+
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              Number System Conversion
+            </a>
+            <a href="conversion_calculator/decimaltobinary.html" class="list-group-item list-group-item-action">Decimal to Binay</a>
+            <a href="conversion_calculator/decimaltooctal.html" class="list-group-item list-group-item-action">Decimal to Octal</a>
+            <a href="conversion_calculator/decimaltohex.html" class="list-group-item list-group-item-action">Decimal to Hexa</a>
+            
+            <a href="conversion_calculator/binarydecimal.html" class="list-group-item list-group-item-action">Binary to Decimal</a>
+            <a href="conversion_calculator/octaldeci.html" class="list-group-item list-group-item-action">Octal to Decimal</a>
+            <a href="conversion_calculator/hexadeci.html" class="list-group-item list-group-item-action">Hexa to Decimal</a>
+             
+            <a href="conversion_calculator/binarytooctal.html" class="list-group-item list-group-item-action">Binary to Octal</a>
+            <a href="conversion_calculator/binarytohexa.html" class="list-group-item list-group-item-action">Binary to Hexa</a>
+            <a href="conversion_calculator/otcaltobinary.html" class="list-group-item list-group-item-action">Octal to Binay</a>
+            <a href="conversion_calculator/octaltohexa.html" class="list-group-item list-group-item-action">Octal to Hexa</a>
+            <a href="conversion_calculator/hexatooctal.html" class="list-group-item list-group-item-action">Hexa to octal</a>
+            <a href="conversion_calculator/hexatobinary.html" class="list-group-item list-group-item-action">Hexa to Binary</a>
+         
+                   
+        </div>
+    
+     </div>
+
+  </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

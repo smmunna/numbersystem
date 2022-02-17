@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+#header{
+    position: fixed;
+    width:100%;
+}
+.boxbg{
+    background-image: url("bg1.jpg");
+    height: 170vh;
+    width: 100%;
+    background-size: cover;
+}
+.box1{
+    padding: 2%;
+    height: 630px;
+    width: 70%;
+
+    margin-top: 5%;
+    float: left;
+}
+.box2{
+    height: 630px;
+    width: 30%;
+    padding: 1%;
+  
+    margin-top: 5%;
+    float: left;
+}
+
+.box3{
+
+    float: left;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .boxbg{
+        height: 300vh;
+    }
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .boxbg{
+        height: 265vh;
+    }
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+        margin-top: 23%;
+    }
+    .box3{
+        margin-top: -14%;
+        width: 100%;
+    }
+    
+  }

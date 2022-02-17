@@ -1,0 +1,41 @@
+.navBar{
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1%;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    border: 1px solid red;
+
+    background-color: aquamarine;
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .navBar{
+        padding: 3%;
+    }
+    
+  }

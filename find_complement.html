@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complements Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+ <!--Inculde Header-->
+ <script
+ src="https://code.jquery.com/jquery-3.3.1.js"
+ integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+ crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+$("#rimheader").load("header.html"); 
+});
+</script>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(odd){background-color: #95d670;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: rgb(250, 249, 249);
+}
+
+.newtable{
+   
+    text-align: justify;
+    padding:8%;
+    width: fit-content;
+    
+    margin: 0 auto;
+}
+.bdybg{
+    background-image: url('bg1.jpg'); 
+    height: 110%; 
+  
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .newtable{
+     
+     padding: 20%;
+ }
+ .bdybg{
+     height: 100vh;
+ }
+  
+}
+
+
+
+</style>
+    
+</style>
+
+
+
+</head>
+<body>
+  <div id="rimheader"></div>
+  <div class="body1">
+     <div class="bdybg">
+   
+        <div class="newtable">
+            <h1 style="color: rgb(245, 241, 235);">Finding Complement</h1>
+
+            <table id="customers">
+              <tr>
+                <th>Calculator List</th>
+              </tr>
+              <tr>
+                <td><a href="complement_calculator/onescomplement.html"> 1's Complement</a></td>
+            
+              </tr>
+              <tr>
+                <td><a href="complement_calculator/twoscomplement.html"> 2's Complements</a></td>
+            
+              </tr>
+              <tr>
+                <td><a href="complement_calculator/sevencomplement.html"> 7's Complements</a></td>
+            
+              </tr>
+              <tr>
+                <td><a href="complement_calculator/eightcomplement.html"> 8's Complements</a></td>
+               
+              </tr>
+              <tr>
+                <td><a href="complement_calculator/ninecomplement.html"> 9's Complements</a></td>
+            
+              </tr>
+              <tr>
+                <td><a href="complement_calculator/tensComplement.html"> 10's Complements</a></td>
+            
+              </tr>
+              <tr>
+                <td><a href="complement_calculator/fifteencomplement.html"> 15's Complements</a></td>
+       
+            
+              </tr>
+              <tr>
+                <td><a href="complement_calculator/sixteencomplement.html"> 16's Complements</a></td>
+       
+            
+              </tr>
+              <br>
+              <br>
+              
+            </table>
+                   
+        </div>
+    
+     </div>
+
+  </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
